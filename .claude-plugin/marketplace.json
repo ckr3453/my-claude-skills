@@ -1,0 +1,76 @@
+{
+  "name": "spring-boot-kotlin-skills",
+  "owner": {
+    "name": "Kyungrok Cho",
+    "email": "david3453@naver.com"
+  },
+  "metadata": {
+    "description": "Professional Spring Boot Kotlin development skills for Clean Architecture, TDD, debugging, code review, and project initialization",
+    "version": "1.0.0",
+    "homepage": "https://github.com/ckr3453/my-claude-skills",
+    "repository": "https://github.com/ckr3453/my-claude-skills",
+    "license": "MIT"
+  },
+  "plugins": [
+    {
+      "name": "spring-boot-kotlin-init",
+      "source": "./plugins/spring-boot-kotlin-init",
+      "description": "Initializes Spring Boot Kotlin projects with Clean Architecture principles. Use when users request to create a new Spring Boot project, initialize a backend project structure, or set up a Kotlin-based web application with best practices.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kyungrok Cho"
+      },
+      "keywords": ["spring-boot", "kotlin", "clean-architecture", "initialization", "project-setup"],
+      "category": "project-setup",
+      "strict": false
+    },
+    {
+      "name": "spring-boot-kotlin-architecture-design",
+      "source": "./plugins/spring-boot-kotlin-architecture-design",
+      "description": "Transform user requirements into detailed Clean Architecture design specifications for Spring Boot Kotlin projects. Designs domain models, database schemas, API endpoints, and business logic.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kyungrok Cho"
+      },
+      "keywords": ["spring-boot", "kotlin", "architecture", "design", "clean-architecture", "ddd"],
+      "category": "architecture",
+      "strict": false
+    },
+    {
+      "name": "spring-boot-kotlin-tdd",
+      "source": "./plugins/spring-boot-kotlin-tdd",
+      "description": "Test-Driven Development for Spring Boot Kotlin projects. Generates comprehensive test suites and production-ready implementations with JUnit5 and MockK.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kyungrok Cho"
+      },
+      "keywords": ["spring-boot", "kotlin", "tdd", "testing", "junit5", "mockk"],
+      "category": "testing",
+      "strict": false
+    },
+    {
+      "name": "spring-boot-kotlin-review",
+      "source": "./plugins/spring-boot-kotlin-review",
+      "description": "Comprehensive code review and refactoring for Spring Boot Kotlin projects following Clean Code and Clean Architecture principles. Analyzes quality, performance, and security.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kyungrok Cho"
+      },
+      "keywords": ["spring-boot", "kotlin", "code-review", "refactoring", "clean-code"],
+      "category": "code-quality",
+      "strict": false
+    },
+    {
+      "name": "spring-boot-kotlin-systematic-debugging",
+      "source": "./plugins/spring-boot-kotlin-systematic-debugging",
+      "description": "Systematic 4-phase debugging process for Spring Boot Kotlin applications. Debug production issues, investigate bugs, and solve performance problems with structured methodology.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kyungrok Cho"
+      },
+      "keywords": ["spring-boot", "kotlin", "debugging", "troubleshooting", "production-issues"],
+      "category": "debugging",
+      "strict": false
+    }
+  ]
+}
